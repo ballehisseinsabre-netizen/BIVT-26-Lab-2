@@ -6,7 +6,10 @@
         public int Task1(int n)
         {
             int answer = 0;
-
+             int current = 2;
+            while ( current <= 3 * n - 1 )
+                answer += current;
+                current += 3;
             // code here
 
             // end
@@ -16,6 +19,8 @@
         public double Task2(int n)
         {
             double answer = 0;
+            for (int i = 1; i <= n; i++)
+                answer += 1.0 / i;
 
             // code here
 
