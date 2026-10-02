@@ -11,9 +11,7 @@
                 answer += current;
                 current += 3;
             // code here
-
             // end
-
             return answer;
         }
         public double Task2(int n)
@@ -31,6 +29,12 @@
         public long Task3(int n)
         {
             long answer = 0;
+            if (n ==0)
+                answer = 1;
+            else
+                answer = 1;
+                for (int i = 1; i <= n; i++)
+                    answer *= i; 
 
             // code here
 
@@ -41,6 +45,9 @@
         public long Task4(int a, int b)
         {
             long answer = 0;
+            answer = 1;
+            for (int i = 0; i < b; i++)
+                answer *= a;
 
             // code here
 
@@ -51,6 +58,11 @@
         public int Task5(int L)
         {
             int answer = 0;
+            int p = 1;
+            answer = 1;
+            while (p <= L)
+                answer +=3;
+                p *= answer;
 
             // code here
 
